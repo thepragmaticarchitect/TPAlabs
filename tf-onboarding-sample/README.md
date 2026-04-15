@@ -1,6 +1,6 @@
 # Onboarding Portal — Terraform Sample (Multi-Cloud)
 
-Production-ready IaC for customer onboarding. Two user paths (commercial + enterprise). Three clouds (AWS, GCP, Azure). One night to deploy. Let's go.
+Deployment-ready IaC for customer onboarding. Two user paths (commercial + enterprise). Three clouds (AWS, GCP, Azure). One night to deploy. Let's go.
 
 This is a learning lab. It's not a real company's onboarding system (though you could fork it and make it one).
 
