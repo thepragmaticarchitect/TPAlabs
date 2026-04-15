@@ -1,0 +1,36 @@
+environment = "dev"
+
+# ===== AWS =====
+aws_region = "us-east-1"
+
+# Entra ID SAML Configuration (for Cognito federation)
+entra_id_metadata_url = "https://login.microsoftonline.com/<your-tenant-id>/federationmetadata/2007-06/federationmetadata.xml"
+entra_id_slo_url      = "https://login.microsoftonline.com/<your-tenant-id>/saml2"
+
+# ===== GCP =====
+gcp_project_id     = "your-gcp-project-id"
+gcp_project_number = "123456789"
+gcp_region         = "us-central1"
+
+# Cognito OIDC (from AWS cognito output)
+cognito_issuer_uri = "https://cognito-idp.us-east-1.amazonaws.com/<aws-user-pool-id>"
+cognito_client_id  = "<aws-client-id>"
+
+cloud_sql_tier  = "db-f1-micro"
+cloud_run_image = "gcr.io/your-project/onboarding:latest"
+
+# ===== Azure =====
+azure_subscription_id = "your-subscription-id"
+azure_tenant_id       = "your-tenant-id"
+azure_region          = "eastus"
+
+# Azure AD user object ID for SQL admin
+azure_admin_object_id = "your-object-id"
+
+azure_sql_sku         = "Basic"
+app_service_sku       = "B1"
+app_docker_image      = "myregistry.azurecr.io/onboarding:latest"
+docker_username       = "your-docker-username"
+docker_password       = "your-docker-password"
+publisher_name        = "Your Company"
+publisher_email       = "admin@yourcompany.com"
