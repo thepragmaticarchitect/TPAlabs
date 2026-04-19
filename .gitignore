@@ -1,0 +1,136 @@
+MASTER_EXECUTION_PLAN.md
+private-notes/drafts/
+*.secret.*
+weekly-drafts/
+.env
+*.exe
+Ollama-Models/
+data/
+
+#############################################
+# OS Files
+#############################################
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+
+#############################################
+# Logs
+#############################################
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#############################################
+# Environment / Secrets
+#############################################
+.env
+.env.**
+.env*
+.secret
+secrets.json
+credentials.json
+
+#############################################
+# Python
+#############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+.env/
+*.egg
+
+#############################################
+# AI / ML Projects
+#############################################
+chroma_db/
+data/
+*.db
+*.sqlite
+*.pkl
+*.h5
+*.pt
+*.pth
+models/
+embeddings/
+
+#############################################
+# Terraform
+#############################################
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+#############################################
+# Node / JavaScript (some labs use this)
+#############################################
+node_modules/
+package-lock.json
+yarn.lock
+
+#############################################
+# IDE / Editor
+#############################################
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln
+.docstates
+
+#############################################
+# Temporary files
+#############################################
+tmp/
+temp/
+.cache/
+*.tmp
+
+#############################################
+# Archives
+#############################################
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+#############################################
+# Coverage / Test
+#############################################
+coverage/
+.coverage
+*.cover
+
+#############################################
+# Local configs
+#############################################
+config.local.*
+settings.local.*
+
+#############################################
+# Mac / Linux misc
+#############################################
+*.bak
+*.old
